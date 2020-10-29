@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+<style>
+body {font-family: Arial, Helvetica}
+
+input[type=text], select, textarea {
+  width: 30%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+ background-color: rgba(240, 255, 255, 0.5502);
+  padding: 20px;
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 0%;
+}
+</style>
+</head>
+<body background="../back.jpg" style="background-size:cover;
+background-attachment: fixed;">
+
+
+<div class="container">
+  
+    <center><h2 style="color:black"><u>FEEDBACK FORM</u></h2></center>
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name.."><br>
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name.."><br>
+    <label for="mobno">Contact No.</label>
+    <input type="text"><br>
+
+   <label for="pincode">Pincode</label>
+   <input type="text" style="width:20%"><br>
+   <label for="product">Address</label>
+<input type="text" placeholder="Address"><br><br>
+   
+   <select name="Categories" placeholder="Categories" id="">
+       <option value="" disabled selected>Categories </option>
+       <option value="BOOKS">SUGGESTION</option>
+       <option value="ARTICLES">COMPLAINS</option>
+      
+       <option value="OTHERS">OTHERS</option>
+   </select>
+<br>
+
+
+    <label for="subject">Description </label>
+    <textarea id="subject" name="subject" placeholder="Write Short Description.." style="height:100px;width:100%;"></textarea><br>
+    
+<a href="E:\study material\HTML class\library project\AFTER STUDENT LOGIN.html"><input type="submit" value="Submit"></a>
+  </form>
+</div>
+
+</body>
+</html>

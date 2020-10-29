@@ -1,0 +1,89 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothics;
+}
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+ul{
+	list-style-type: none;
+	float: right;
+	margin-top: 25px;
+}
+ul li{
+	display: inline-block;
+	padding: 30px;
+}
+ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 5px 20px;
+	border: 1px solid white transparent;
+	transition: 0.5s ease ;
+
+}
+ul li a:hover{
+	background-color: white;
+	color: black;
+	transition: 0.8s ease;
+}
+.table1{
+	position: absolute;
+	top: 75%;
+	left: 20%;
+	transform: translate(-20%,-50%);
+
+}
+ul.table2 li.dinein{
+		text-decoration: none;
+	color: white;
+	border: 1px solid white transparent;
+	transition: 0.5s ease ;
+		position: absolute;
+	top: 95%;
+	left: 14%;
+	transform: translate(-20%,-50%);
+
+}
+ul.table2 li.takeaway{
+		text-decoration: none;
+	color: white;
+	border: 1px solid white transparent;
+	transition: 0.5s ease ;
+		position: absolute;
+	top: 95%;
+	left: 33.5%;
+	transform: translate(-20%,-50%);
+	}
+	ul.table2 li.menu{
+		text-decoration: none;
+	color: white;
+	border: 1px solid white transparent;
+	transition: 0.5s ease ;
+		position: absolute;
+	top: 95%;
+	left:54%;
+	transform: translate(-20%,-50%);
+	}
+	/*ul.table2 li.dinein{
+		text-decoration: none;
+	color: white;
+	border: 1px solid white transparent;
+	transition: 0.5s ease ;
+		position: absolute;
+	top: 95%;
+	left: 75.5%;
+	transform: translate(-20%,-50%);
+	}*/
+ul.table2 li{
+	border-bottom: 2px solid white;
+}
+ul.table2 li a:hover{
+	background-color: transparent;
+	color: blue;
+	transition: 0.8s ease;
+	border-bottom: transparent;
+}

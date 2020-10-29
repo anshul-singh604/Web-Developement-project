@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+<head>
+          
+<title>RETURN BOOK</title>
+<style>
+  input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+     input[type=submit]:hover {
+  background-color: #45a049;
+}
+.a{
+     height: 350px;
+     width:400px;
+     background-color: rgba(240, 248, 255, 0.76);
+     border-radius: 15px;
+     margin-left:400px;
+     margin-top: 50px;
+}
+</style>
+<script>
+ function validate()
+{ 
+          if(document.getElementById("t1").value=="" )
+            {
+            alert("Please provide your name");
+            document.getElementById("t1").focus() ;
+             return false;
+            }
+            if(document.getElementById("t2").value=="" )
+            {
+            alert("Please provide your REGISTRATION NO");
+            document.getElementById("t2").focus() ;
+             return false;
+            }
+              
+       
+        var p = document.getElementById("t3").value;
+        if(document.getElementById("t3").value=="" )
+            {
+            alert("Please provide your password");
+            document.getElementById("t3").focus() ;
+             return false;
+            }
+         var x = document.getElementById("t5").value;;
+     if(document.getElementById("t5").value=="" || p!=x )
+            {
+            alert("Password doesnot match");
+            document.getElementById("t5").focus() ;
+             return false;
+            }
+
+}
+</script>
+</head>
+<body background="C:\Users\SAURAV\Desktop\library-1-1024x682.jpg"style="background-repeat: ;
+background-attachment: fixed;">
+     <div class="a">
+<h1><center><b><u>RETURN BOOK</u></b></center></h1>
+<form name="myForm" onsubmit="return(validate());">
+<table align="center">
+       <tr>
+           <td align="left">Name</td>
+           <td><input type="text" name="Name" id="t1" /></td>
+       </tr>
+       <tr></tr><tr></tr><tr>
+            <td align="left">REGISTRATION NO</td>
+            <td><input type="text" name="Email" id="t2" /></td>
+       </tr><tr></tr><tr></tr>
+        <tr>
+            <td align="left">BOOK ID</td>
+            <td><input type="text" name="ID" id="t6" /></td>
+       </tr><tr></tr><tr></tr>
+        <tr>
+            <td align="left">BOOK NAME</td>
+            <td><input type="text" name="BN" id="t7" /></td>
+       </tr><tr></tr><tr></tr>
+        <tr>
+            <td align="left">Password</td>
+            <td><input type="password" name="password" id="t3" /></td>
+       </tr><tr></tr><tr></tr><tr>
+            <td align="left">Re-enter Password</td>
+            <td><input type="password" name="Re-enter Password" id="t5" /></td>
+       </tr><tr></tr><tr></tr>
+
+      <tr><td><br><br><input type="submit" value="Submit" /></td>
+          </tr>
+</table>
+</form>
+</div>
+</body>
+</html>

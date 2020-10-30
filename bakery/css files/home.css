@@ -6,8 +6,8 @@
 
 .button{
 		position: absolute;
-	top: 52%;
-	left: 33.55%;
+	top: 48%;
+	left:38%;
 	transform: translate(-50% -50%);
 }
 .btn{
@@ -59,13 +59,13 @@ background-color: white;
 }
 .title{
 	position: absolute;
-	top: 40%;
+	top: 25%;
 	left: 35%;
 	transform: translate(-50% -50%);
 }
 .title h1{
 	color: #A62658;
-	font-size: 70px;
+	font-size: 100px;
 }
 ul li a:hover{
 	background-color: #823058;

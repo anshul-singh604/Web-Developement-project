@@ -1,9 +1,29 @@
+
 <!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
 	<title>LOGIN PAGE</title>
 	<link rel="stylesheet" type="text/css" href="../bakery\css files\login.css">
+<script>
+        function redirect() 
+	{   
+          username=document.getElementById("a").value
+          password=document.getElementById("b").value
+
+          if (username=="Anshul" && password=="1234")
+           {
+               window.open('file:///F:/Btech%201st%20year/CSE326%20PROJECT/New%20folder/oops/bakery/bakery/home2.html');
+           }
+       
+        else
+         {
+           alert("Incorrent credentials")
+          }
+	}
+
+</script>
+
 </head>
 <body background="../8.jpg" style="background-size:cover;
 background-attachment: fixed;">
@@ -22,14 +42,14 @@ background-attachment: fixed;">
 	<h1>Login</h1>
 	<form>
 		<div class="inputbox">
-			<input type="text" name="" required="">
+			<input type="text" id=a name="" required="">
 			<label>Username</label>
 		</div>
 			<div class="inputbox">
-			<input type="password" name="" required="">
+			<input type="password" id=b name="" required="">
 			<label> Password </label>
 		    </div>
-		    <input type="submit" name="LOGIN" value="LOGIN" onclick="window.location=file:///F:/Btech%201st%20year/CSE326%20PROJECT/New%20folder/oops/bakery/bakery/home2.html" >
+		    <input type="submit" name="LOGIN" value="LOGIN" onclick=redirect() >
 	</form>
 </body>
 </html>
